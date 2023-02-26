@@ -1,0 +1,193 @@
+.THead {
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+    margin-left: -150px;
+    margin-right: -150px;
+    padding: 50px;
+    padding-top: 20px;
+    background-color: black;
+}
+.THeader {
+    letter-spacing: 52px;
+    animation-name: GryToBlck;
+    animation-duration: 4s;
+}
+@keyframes GryToBlck {
+    from {color: black;}
+    to {color: white;}
+}  
+.all {
+    background-color: black;
+}
+.NavBar {
+    background-color: #363636;
+    margin-left:-10px;
+    padding-right: -20px;
+    height:48px;
+    width:110%;
+    margin-top: 5px;
+}
+.HeadNavBar {
+    height: 48px;
+
+}
+.NavBarButton {
+    height: 48px;
+    font-size: 20px;
+    background-color: #282828;
+    border: none;
+    color: white;
+    padding: 5px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: monospace;
+}
+.NavBarButton:hover {
+    transform: scale(1.22);
+    transition: 1s;
+    color: whitesmoke;
+    text-decoration:underline;
+    text-decoration-color: white;
+    border-color: white;
+    border: solid;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 120%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+.Center {
+    display: block;
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 128px;
+    width: 50%;
+    background-color: #000000;
+}
+.bg2 {
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTJiNzA5MmQ3YzBmYTdkNDgzY2JkY2ZhZGRjMTI3ZmZhNGUwODYzZCZjdD1n/fS9PCxQYG0ULu/giphy.gif); 
+    margin-left: -256px;
+    padding-top: 0px;
+}
+.bg1 {
+    background-image: url(IMAGES/Coding.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    margin-left: -8px;
+    width: 1400px;
+    height: 640px;
+    padding-left: 128px;
+    padding-top: 64px;
+    margin-bottom: 200px;
+    margin-top: -19px;
+    image-resolution: inherit;
+}
+.bg1Title {
+    font-size: 30px;  
+    font-family: sans-serif;
+    letter-spacing: 16px;
+    padding-bottom: 16px;
+    color:white;
+    background-color: black;
+}
+.bg1Title:hover {
+    text-decoration:underline;
+    text-decoration-color: white;
+    transform: scale(1.2);
+    transition: 1s;
+    border: solid;
+    border-color: #000000;
+}
+.bg1Paragraph {
+    box-shadow:white;
+    padding-right: 512px;
+    text-shadow: #282828;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    box-shadow: #282828;
+    width: 450px;
+}
+.bg1Paragraph:hover {
+    transform: scale(1.01);
+}
+.bg1Image {
+    margin-left: 700px;
+    margin-top: -285px;
+    size: 100px;
+    border-radius: 13px;
+}
+.bg1Image:hover {
+    transform:scale(1.1);
+    transition: 1.5s;
+}
+.bg1Text {
+    font-size: large;
+}
+.Credit {
+    text-align: center;
+    margin-top: 745px;
+    background-color: #000000;
+    color:white;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 128px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -32px;
+}
+#Ch1 {
+    margin-top: -30px;
+    font-size: 48px;
+    color: white;
+}
+#Logo {
+    margin-left: -820px;
+    margin-top: -300px;
+    width: 256px;
+    height: 256px;    
+}
+#Dog {
+    font-size: 36px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    letter-spacing: 3px;
+}
+
+#Email {
+    margin-bottom: 100px;
+}
+.CreditText{
+    text-align: right;
+}
+#Copyright {
+    size: 20px;
+}
+/* =============== Elements */
+
+html {
+    background-color: black;
+}
+a, u {
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    overflow-x: hidden;
+  }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; 
+}
